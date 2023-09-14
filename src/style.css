@@ -3,6 +3,8 @@
     --grey-primary-color: #455d7a; 
     --accent-color: #f95959; 
     --light-background-color: #e3e3e3; 
+    --gradient: linear-gradient(40deg, var(--grey-primary-color) 1%, var(--light-background-color) 100%);
+    --shadow: 10px 10px 27px 8px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -14,12 +16,15 @@ body {
 a {
     text-decoration: none;
 }
+img {
+    border-radius: 10px;
+}
 h1 {
     font-weight: 700;
 }
 .container {
     width: 300px;
-    padding: 24px 24px 42px 24px;
+    padding: 32px 24px 42px 24px;
     margin: 0 auto;
     background-color: var(--light-background-color)
 }
@@ -66,4 +71,17 @@ border-radius: 8px;
     background-color: var(--light-background-color);
   }
 
-  
+  .card-project {
+    height: auto;
+    border-radius: 10px;
+    background: var(--gradient);
+    padding: 24px 16px;
+}
+.card-project:hover{
+    box-shadow: var(--shadow);
+}
+.card-project a {
+    width:100%;
+    height: 100%;
+    color:var(--dark-primary-color);
+}
