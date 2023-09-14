@@ -14,9 +14,12 @@ body {
 a {
     text-decoration: none;
 }
+h1 {
+    font-weight: 700;
+}
 .container {
     width: 300px;
-    padding: 24px 42px 24px;
+    padding: 24px 24px 42px 24px;
     margin: 0 auto;
     background-color: var(--light-background-color)
 }
