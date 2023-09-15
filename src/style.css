@@ -5,7 +5,7 @@
     --accent-color: #f95959; 
     --light-background-color: #e3e3e3; 
     --light-transparent: rgba(227, 227, 227, 0.686); 
-    --gradient: linear-gradient(40deg, var(--grey-transparent) 40%, var(--light-transparent) 100%);
+    --gradient: linear-gradient(220deg, var(--grey-transparent) 40%, var(--light-transparent) 100%);
     --shadow: 10px 10px 27px 8px rgba(0, 0, 0, 0.3);
 }
 
