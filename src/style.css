@@ -130,7 +130,7 @@ a:hover i, a:focus i {
     align-items: flex-start;
     width: 100%;
     padding: 24px 32px;
-    background: var(--gradient);
+    background: var(--light-transparent);
     border-radius: 10px;
 }
 @media screen and (min-width: 767px) {
