@@ -117,8 +117,8 @@ a:hover i, a:focus i {
   .card-project {
     height: auto;
     border-radius: 10px;
-    background: var(--light-gradient);
-    border: 1.8px dotted var(--grey-transparent);
+    background: transparent;
+    border: 1.8px solid var(--grey-transparent);
     padding: 24px 16px;
 }
 .card-project:hover{
