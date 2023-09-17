@@ -44,7 +44,7 @@ ul {
         width: 720px;
     }
     .header {
-        width: 720px;
+        width: 756px;
     }
 }
 @media screen  and (min-width:1200px) {
@@ -52,7 +52,7 @@ ul {
         width: 1156px;
     }
     .header {
-        width: 1156px;
+        width: 1196px;
     }
 }
 .hero {
