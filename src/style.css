@@ -64,6 +64,7 @@ ul {
     color: var(--light-background-color);
     background-image: var(--gradient), url('./images/background-foto.jpg');
     height: calc(100vh - 104px);
+    margin-bottom: 96px;
 }
 .hero h1 {
     margin-bottom: 24px;
@@ -155,4 +156,5 @@ footer {
     background-position: center center; 
     padding: 32px;
     font-weight: 700;
+    margin: 96px 0 0;
 }
