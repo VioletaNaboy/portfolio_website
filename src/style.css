@@ -132,11 +132,12 @@ a:hover i, a:focus i {
     padding: 24px;
     background: var(--light-transparent);
     border-radius: 10px;
+    margin-bottom: 48px;
 }
 @media screen and (min-width: 767px) {
     .inquiry {
         flex-direction: row;
-        margin: 0 auto;
+        margin: 0 auto 86px;
         gap: 56px;
         justify-content: flex-start;
         align-items: center;
